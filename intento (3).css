@@ -1,0 +1,137 @@
+/* R */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    background-color: #2F4F4F;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Barra de n */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #8FBC8F;
+    padding: 1em;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+
+/* Secciones */
+.section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #556B2F;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+/* Beneficiossss */
+.benefit-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.benefit {
+    text-align: center;
+    max-width: 200px;
+    padding: 1em;
+}
+
+.benefit i {
+    font-size: 2em;
+    color: #2E8B57;
+    margin-bottom: 0.5em;
+}
+
+.benefit h3 {
+    color: #556B2F;
+    margin-bottom: 0.5em;
+}
+
+/* Tipis */
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.type {
+    text-align: center;
+    max-width: 300px;
+}
+
+.type img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+.footer {
+    background-color: #556B2F;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.footer h2 {
+    margin-bottom: 1em;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #FFD700;
+}
